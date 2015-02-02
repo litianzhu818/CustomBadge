@@ -18,6 +18,7 @@
 		2B013E0C1A07A9AF00815F52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B013E0B1A07A9AF00815F52 /* Default-568h@2x.png */; };
 		2B2D78D71A0CEBCC00E153D9 /* BadgeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D78D61A0CEBCC00E153D9 /* BadgeStyle.m */; };
 		2B3EB1EA1219595D00E3C351 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EB1E81219595D00E3C351 /* CustomBadge.m */; };
+		E7B9D74E1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9D74D1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		2B3EB1E91219595D00E3C351 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CustomBadge_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CustomBadge-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomBadge-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E7B9D74C1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomBadge.h"; sourceTree = "<group>"; };
+		E7B9D74D1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomBadge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E7B9D74C1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.h */,
+				E7B9D74D1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.m */,
 				2B3EB1E91219595D00E3C351 /* CustomBadge.h */,
 				2B3EB1E81219595D00E3C351 /* CustomBadge.m */,
 				2B2D78D51A0CEBCC00E153D9 /* BadgeStyle.h */,
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				E7B9D74E1A7FD3C300D9EC02 /* UITabBarItem+CustomBadge.m in Sources */,
 				2B2D78D71A0CEBCC00E153D9 /* BadgeStyle.m in Sources */,
 				1D3623260D0F684500981E51 /* CustomBadgeAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* CustomBadgeViewController.m in Sources */,
